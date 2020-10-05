@@ -1,0 +1,44 @@
+@-webkit-keyframes eunjus {
+	0% {
+		transform: rotate(0deg) scale(1,1);
+	} 
+	100% {
+		transform: rotate(360deg) scale(1,1);
+	}
+}
+
+.box1 {
+	width: 100px;
+	height: 100px;
+	background-color: #d9598c;
+
+	animation-name: eunjus;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	margin-left: 50px;
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: #567ace;
+
+	animation-name: eunjus;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	margin-left: 50px;
+	margin-top: 200px
+}
+.box3 {
+	width: 100px;
+	height: 100px;
+	background-color: #567ace;
+
+	animation-name: eunjus;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	margin-left: 50px;
+	margin-bottom: 200px
+}
